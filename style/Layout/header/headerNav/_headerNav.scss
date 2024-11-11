@@ -1,0 +1,45 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  @media screen and (max-width: 500px) {
+    padding: 0px 10px;
+  }
+  .headerLogo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    @media screen and (max-width: 500px) {
+      width: 70px;
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  column-gap: 20px;
+  @media screen and (max-width: 500px) {
+    column-gap: 5px;
+  }
+  a {
+    padding: 10px 20px;
+    border: 1px solid #4a4a7d;
+    color: #4a4a7d;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background-color: white;
+    @media screen and (max-width: 500px) {
+      padding: 7px 10px;
+      font-size: 18px;
+    }
+    &:nth-child(2) {
+      background-color: rgb(247, 247, 81);
+    }
+  }
+}

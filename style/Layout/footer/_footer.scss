@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  position: relative;
+  margin-top: 50px;
+  color: #4a4a7d;
+  font-size: 15px;
+  @media screen and (max-width: 750px) {
+    padding: 20px 30px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 20px 10px;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 12px;
+  }
+  &::before {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #4a4a7d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  img {
+    width: 100px;
+    height: auto;
+    @media screen and (max-width: 500px) {
+      width: 70px;
+    }
+  }
+}

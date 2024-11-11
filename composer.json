@@ -1,0 +1,17 @@
+{
+    "name": "robinurcun/pick-alang",
+    "autoload": {
+        "psr-4": {
+            "Robinurcun\\PickAlang\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RobinUrcun",
+            "email": "107709383+RobinUrcun@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
